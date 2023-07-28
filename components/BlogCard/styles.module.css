@@ -1,0 +1,34 @@
+.title{
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+}
+.description {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+.blogCard {
+    display: flex;
+    padding: 8px;
+    border-radius: 12px;
+    gap: 36px;
+    margin-top: 32px;
+}
+.blogInfo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+.blogImage {
+    border-radius: 100px;
+    width: 96px;
+    height: 96px;
+    position: relative;
+    flex-shrink: 0;
+}
+.blogImage img{
+    border-radius: 12px;
+    object-fit: cover;
+}
